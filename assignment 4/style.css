@@ -1,0 +1,137 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    display: grid;
+    place-items: center;
+    padding-top: 200px;
+}
+
+.front-card{
+    position: relative;
+    width: 450px;
+    background-color:#fcebeb ;
+    font-family: 'roboto', sans-serif;
+}
+
+.card-description{
+    color: red;
+    position: relative;
+    left: 300px;
+    top: -90px;
+    
+
+}
+
+.company-name{
+    position: relative;
+    top: 75px;
+}
+
+.price-two{
+    font-size: 40px;
+}
+
+.price{
+    font-size:40px;
+    position: relative;
+    bottom: -30px;
+}
+
+.card-number{
+    font-size: 13px;
+    position: relative;
+    left: 350px;
+}
+
+.card-link{
+    background-color: red ;
+}
+.image{
+    position: relative;
+    top: 45px;
+    left: 30px;
+
+}
+
+.card-link{
+    text-align: center;
+}
+.link{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    
+
+}
+
+body{
+    background-color: #e5e5e5;
+}
+
+.back-card{
+    margin-top: 30px;
+    width: 450px;
+    background-color: white;
+    font-family: "roboto", sans-serif;
+    position: relative;
+
+}
+
+.back-card-heading{
+    text-decoration: underline;
+
+}
+
+input{
+    margin-top: 11px;
+    padding: 11px 11px 11px 70px;
+}
+
+.pin{
+    margin-left: 3rem;
+    width:337px;
+    background-color: #32a2e1;
+    height: 58px;
+}
+
+.second-image{
+    /* width: 60px;
+    height: 60px; */
+    position: absolute;
+    left: 24.2rem;
+    top: -1rem;
+
+    
+    
+}
+
+.triangle{
+    
+    max-width: 20px;
+    height: 100%;
+    border-bottom: 58px solid white;
+    border-right: 5px solid transparent;
+    border-left: 50px solid transparent;
+    position: absolute;
+    left: 21rem;
+    top: -9.2rem;
+}
+
+.back-card-description{
+    text-align: center;
+}
+
+.password-label{
+    color: white;
+}
+
+.second-horizontal-rule{
+    padding-bottom: 3px;
+}
+.second-card-bottom{
+    font-size: 13px;
+    line-height:20px;
+}
